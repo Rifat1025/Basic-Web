@@ -1,0 +1,13 @@
+.btn-container{
+    padding:20px;
+    text-align:center;
+    background-color: brown;
+}
+.btn{
+    padding:10px 20px
+    border-radius:20%;
+    font-size:2rem;
+}
+i{
+    color:blue;
+}

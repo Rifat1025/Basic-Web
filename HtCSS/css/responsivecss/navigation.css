@@ -1,0 +1,35 @@
+.nav-menu{
+    background-color: blueviolet;
+    display:flex;
+    justify-content: right;
+    margin: 10px;
+}
+.nav-menu a{
+    color:white;
+    text-decoration: none;
+    padding:10px;
+    font-size: 1.5rem;
+}
+@media screen and (max-width: 600px) {
+    .nav-menu{
+        background-color: blueviolet;
+        display:flex;
+        justify-content: right;
+        margin: 10px;
+        flex-direction: column;
+        
+    }
+    .nav-menu a{
+        color:white;
+        
+        padding:10px;
+        font-size: 1.5rem;
+        margin:10px;
+        background-color:brown;
+        border-radius: 10%;
+        text-align: center;
+    }
+    a:hover{
+     background-color: blue;
+    }
+}

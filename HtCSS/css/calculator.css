@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+}
+h1{
+    text-align: center;
+    
+}
+.calculator{
+    margin:0  auto;
+    max-width: 350px;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px 0 black;
+    box-sizing: border-box;
+    transition: 0.3s;
+    font-size: 0;
+}
+
+.calc-head #result{
+    height:100px;
+    width:348px;
+    font-size: 2rem;
+    font-weight: bold;
+    
+
+}
+.body input {
+    width:87px;
+    font-weight: bold;
+    height:70px;
+    background-color: black;
+    color: white;
+    
+
+}
+.calculator:hover{
+    box-shadow: 0 8px 16px 0 black;
+}
+.body input:hover{
+    background-color: green;
+}

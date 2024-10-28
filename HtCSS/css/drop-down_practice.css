@@ -1,0 +1,35 @@
+.nav-bar{
+    background-color: blueviolet;
+    
+}
+.nav-bar ul{
+    list-style-type: none;
+    
+     justify-content:right;
+    
+}
+.nav-bar ul li{
+    display: inline-block;
+}
+.nav-bar ul li a{
+   text-decoration: none;
+   padding:10px;
+   color:white;
+   
+  
+ 
+}
+.container{
+    position: relative;
+    display: inline;
+
+}
+.sub-container{
+    position: absolute;
+    top:40px;
+    left:0px;
+    background-color: brown;
+}
+.conatiner:hover .sub-container{
+    display:block;
+}

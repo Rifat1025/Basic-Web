@@ -1,0 +1,13 @@
+.flex{
+    display: flex;
+    margin:auto 0;
+    background-color:blueviolet;
+    justify-content: right;
+    
+
+}
+.flex div{
+    margin:10px;
+    
+    padding:40px;
+}

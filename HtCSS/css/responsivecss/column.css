@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+/* .column{
+    width:25%;
+    float:left;
+    padding: 10px;
+    
+}
+@media screen and (max-width:992px) {
+    .column{
+        width:50%;
+    }
+    
+}
+@media screen and (max-width:600px) {
+    .column{
+        width:100%;
+    }
+    
+} 
+    ALTERNATIVELY WE USE FLEXLAYOUT
+ */ 
+ .row{
+    display:flex;
+    flex-wrap: wrap;
+    
+ }
+.column{
+    flex:25%;
+    padding:10px;
+    text-align: justify;
+    
+ }
+ @media screen and (in-width:992px) {
+    .column{
+        flex:50%;
+    }
+    
+}

@@ -1,0 +1,23 @@
+input{
+width:100%;
+padding:20px;
+font-size: 1.2rem;
+font-weight: bold;
+border-color: blueviolet;
+box-sizing:border-box;
+}
+
+#search{
+background-image: url('/img/8666693_search_icon.png');
+    width:200px;
+    transition:width 2s ease-in-out;
+    background-repeat: no-repeat;
+    padding:20px 40px;
+    background-position: 5px 10px;
+    text-align:center;
+
+}
+#search:focus{
+    width:100%;
+    background-color: blue;
+}
